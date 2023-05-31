@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="calc.css">
+    <title>Document</title>
+</head>
+<body>
+    
+        <div class="row">
+            <form>
+                <input type="text" id="result"></input>
+             </form>
+             <br>
+            <button type="button" onclick="Display('%')" onkeypress="Display('%')">%</button>
+            <button type="button" onclick="Slice('x')" onkeypress="Slice('x')">x</button>
+            <button type="button" onclick="Clear('C')" onkeypress="Clear('C')">C</button>
+            <button type="button" onclick="Display('/')" onkeypress="Display('/')">/</button>
+            <br><br>
+            <button type="button" onclick="Display('7')" onkeypress="Display('7')">7</button>
+            <button type="button" onclick="Display('8')" onkeypress="Display('8')">8 </button>
+            <button type="button" onclick="Display('9')" onkeypress="Display('9')">9</button>
+            <button type="button" onclick="Display('*')" onkeypress="Display('*')">*</button>
+            <br><br>
+            <button type="button" onclick="Display('4')" onkeypress="Display('4')">4</button>
+            <button type="button" onclick="Display('5')" onkeypress="Display('5')">5 </button>
+            <button type="button" onclick="Display('6')" onkeypress="Display('6')">6</button>
+            <button type="button" onclick="Display('-')" onkeypress="Display('-')">-</button>
+            <br><br>
+            <button type="button" onclick="Display('1')" onkeypress="Display('1')">1</button>
+            <button type="button" onclick="Display('2')" onkeypress="Display('2')">2 </button>
+            <button type="button" onclick="Display('3')" onkeypress="Display('3')">3</button>
+            <button type="button" onclick="Display('+')" onkeypress="Display('+')">+</button>
+            <br><br>
+            <button type="button" onclick="Display('0')" onkeypress="Display('0')">0 </button>
+            <button type="button" onclick="Display('.')" onkeypress="Display('.')">.</button>
+            <button type="button" class="last" onclick="Eval('=')" onkeypress="Eval('=')">=</button>
+
+        </div>
+
+    <script type="text/javascript" src="calc.js"></script>
+
+</body>
+</html>

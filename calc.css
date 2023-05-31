@@ -1,0 +1,82 @@
+body{
+    align-items: center;
+    padding:100px 500px 0px 550px;
+    /* background-color: purple; */
+    min-height: 100vh;
+    background:linear-gradient(to right top ,#65dfc9,#6cdbeb);
+}
+
+ div{
+    background: white;
+   padding-top:10px;
+    padding-left:10px;
+    /* padding-bottom: 10px; */
+    padding-right: 20px;
+    border:1px solid white;
+    border-radius: 3px;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+}
+
+button{
+    border:1px solid #65dfc9;
+    padding: 25px 40px 25px 40px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:white;
+    color:black;
+    font-size: large;
+}
+
+.row{
+    padding: 5px 5px 5px 5px;
+}
+
+.last{
+    width:50%;
+    /* background-color:purple; */
+}
+
+button:hover{
+    background-color:#85daca
+}
+
+input{
+    border-radius: 5px;
+    font-size: xx-large;
+    width: 98%;
+    height: 60px;
+    border:1px solid #65dfc9;
+}
+
+@media only screen and (max-width:1450px){
+    body{
+        align-items: center;
+        display: block;
+        padding:10px 10px 10px 10px;
+        /* background:linear-gradient(to right top ,#65dfc9,#6cdbeb); */
+    }   
+    div{
+        padding: auto;
+    }
+    button{
+        padding: auto;
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width:500px){
+    body{
+        align-items: center;
+        display: block;
+        padding:1px 1px 1px 1px;
+        /* background:linear-gradient(to right top ,#65dfc9,#6cdbeb); */
+    }   
+    div{
+        padding: auto;
+    }
+    button{
+        padding: 10px 10px 10px 10px;
+        font-size: xx-small;
+    }
+}
